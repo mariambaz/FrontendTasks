@@ -20,13 +20,14 @@ window.onload = function() {
     if (winner == 0) {
         document.getElementById("winner").innerHTML = player1_name;
         document.getElementById("win-statement").style.color = dict_of_colors[player1_color];
-        document.getElementsByClassName("win-gif").style.visibility = "visible";
+        // document.getElementsByClassName("win-gif").style.visibility = "visible";
     } else if (winner == 1) {
         document.getElementById("winner").innerHTML = player2_name;
         document.getElementById("win-statement").style.color = dict_of_colors[player2_color];
-        document.getElementsByClassName("win-gif").style.visibility = "visible";
+        // document.getElementsByClassName("win-gif").style.visibility = "visible";
     } else if (winner == -1) {
-        document.getElementsByClassName("tie-gif").style.visibility = "visible";
+        console.log("HERE")
+        // document.getElementsByClassName("tie-gif").style.visibility = "visible";
         document.getElementById("winner").innerHTML = "NO ONE";
     }
 };
