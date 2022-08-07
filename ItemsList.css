@@ -10,21 +10,21 @@ table {
 	width: 90%;
 }
 
-thead {
+div.container div.row:nth-child(1) {
 	background-color: #509ca0;
 	color: white;
 	height: 50px;
 }
 
-tr, td {
+div.container, div.row  {
 	border: 2px solid #509ca0;
 }
 
-tbody tr:nth-child(even) {
+div.container div.row:nth-child(even) {
 	background-color: rgba(80, 156, 160,0.15);
 }
 
-#container {
+#main_list {
 	background-color: white;
 	border-radius: 20px;
 	text-align: center;
@@ -35,14 +35,20 @@ tbody tr:nth-child(even) {
 
 #items_header {
 	color: #509ca0;
+	font-size: 5vw;
 }
 
 .movie_posters {
-	height: 200px;
-	width:200px;
+	height: 10vw;
+	width: 10vw;
 	margin: auto;
 }
 
 .table_text {
-	font-size: 16px;
+	font-size: 2vw;
+}
+
+.list_icon {
+	width: 4vw;
+	height: 4vw;
 }
