@@ -1,0 +1,41 @@
+html, body {
+    background-color:#c2bec4 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    font-size: 5vw;
+    color: white;
+    text-shadow: #220436 1px 0 20px;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.cells {
+    border: thick solid white;
+    width:10vw;
+    height:10vw;
+}
+
+.names {
+    font-size:2vw;
+    font-weight:800;   
+    margin:auto;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 2vw;
+}
+
+#turn {
+    margin-left: 2vw;
+    font-size: 2vw;
+    font-weight: 600;
+    background-color: beige;
+    border-radius: 20px;
+    width: 15vw;
+    height:4vw;
+    padding-top:0.5vw;
+    padding-left:1vw;
+    margin-bottom:0;
+    margin-right:0;
+}

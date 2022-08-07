@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<link rel="stylesheet" href="GamePage.css">
+		<link rel = "icon" href = "img/TicTacToe.png" type = "image/x-icon">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="GamePage.js"></script>
+	</head>
+	<body>
+        <div class="home-page">
+            <h1 id="title">Tic-Tac-Toe</h1>
+            <p id="turn">Turn: <span id="whose-turn"></span></p>
+            <div class="container game-grid">
+                <div class="row justify-content-center">
+                    <div id="cell-1" class="col-2 cells d-flex justify-content-center" onclick="cell1Click()"><img class="img-cells" id="cell-1-img"/></div>
+                    <div id="cell-2" class="col-2 cells d-flex justify-content-center" onclick="cell2Click()"><img class="img-cells" id="cell-2-img"/></div>
+                    <div id="cell-3" class="col-2 cells d-flex justify-content-center" onclick="cell3Click()"><img class="img-cells" id="cell-3-img"/></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div id="cell-4" class="col-2 cells d-flex justify-content-center" onclick="cell4Click()"><img class="img-cells" id="cell-4-img"/></div>
+                    <div id="cell-5" class="col-2 cells d-flex justify-content-center" onclick="cell5Click()"><img class="img-cells" id="cell-5-img"/></div>
+                    <div id="cell-6" class="col-2 cells d-flex justify-content-center" onclick="cell6Click()"><img class="img-cells" id="cell-6-img"/></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div id="cell-7" class="col-2 cells d-flex justify-content-center" onclick="cell7Click()"><img class="img-cells" id="cell-7-img"/></div>
+                    <div id="cell-8" class="col-2 cells d-flex justify-content-center" onclick="cell8Click()"><img class="img-cells" id="cell-8-img"/></div>
+                    <div id="cell-9" class="col-2 cells d-flex justify-content-center" onclick="cell9Click()"><img class="img-cells" id="cell-9-img"/></div>
+                </div>
+            </div>
+            <p class="names"><span id="player1_token"></span>: X</p>
+            <p class="names"><span id="player2_token"></span>: O</p>
+        </div>
+	</body>
+</html>

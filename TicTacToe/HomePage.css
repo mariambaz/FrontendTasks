@@ -1,0 +1,78 @@
+html, body {
+    background-color:#c2bec4 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    margin:auto;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+#title {
+    font-size: 5vw;
+    color: white;
+    text-shadow: #220436 1px 0 20px;
+    text-align: center;
+}
+
+#player-number{
+    font-size: 2vw;
+    color: white;
+    background-color:#220436;
+    border-radius: 10px;
+    text-align: center;
+    width: 20vw;
+    height:5vw;
+    margin:auto;
+    padding-top:1.25vw;
+}
+
+#welcome-msg {
+    font-size:2vw;
+    color:#220436;
+    font-weight: 700;
+}
+
+#colors {
+    margin:auto;
+}
+
+#color-statement {
+    margin:auto;
+    font-size:1.5vw;
+    color:#220436;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+#player_name {
+    height: 5vw;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+#player1_submit {
+    margin:auto;
+}
+
+#player2_submit {
+    visibility: hidden;
+    margin:auto;
+}
+
+img {
+    cursor: pointer;
+}
+
+#error-msg {
+    color: red;
+}
+
+input:focus {
+    box-shadow: 0 3px 12px 0 #220436, 0 0 0 3px #220436;
+}
+
+button {
+    width: 10vw;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<link rel="stylesheet" href="HomePage.css">
+		<link rel = "icon" href = "img/TicTacToe.png" type = "image/x-icon">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="HomePage.js"></script>
+	</head>
+	<body>
+        <div class="home-page">
+            <h1 id="title">Tic-Tac-Toe</h1>
+            <h2 id="player-number">PLAYER 1</h2>
+            <form>
+                <p id="welcome-msg">Hello, please enter your name!</p>
+                <input type="text" id="player_name"/><br/><br/>
+                <p id="color-statement">And, choose your desired gaming color!</p>
+                <table id="colors">
+                    <tr>
+                        <td id="red"><img src="img/red.png" id="red-img" onclick="clickRed()"/></td>
+                        <td id="green"><img src="img/green.png" id="green-img" onclick="clickGreen()"/></td>
+                        <td id="blue"><img src="img/blue.png" id="blue-img" onclick="clickBlue()"/></td>
+                    </tr>
+                    <tr>
+                        <td id="pink"><img src="img/pink.png" id="pink-img" onclick="clickPink()"/></td>
+                        <td id="purple"><img src="img/purple.png" id="purple-img" onclick="clickPurple()"/></td>
+                        <td id="orange"><img src="img/orange.png" id="orange-img" onclick="clickOrange()"/></td>
+                    </tr>
+                </table>
+                <p id="error-msg"></p>
+                <button type="button" id="submit_btn" class="btn btn-light" onclick="playerSubmit()">Next</button><br/>    
+            </form>
+        </div>
+	</body>
+</html>

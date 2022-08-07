@@ -1,0 +1,28 @@
+html, body {
+    background-color:#c2bec4 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    font-size: 5vw;
+    color: white;
+    text-shadow: #220436 1px 0 20px;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+#win-statement {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 50vw;
+    margin: auto;
+    height: 20vh;
+    padding-top: 5vh;   
+    font-size: 3vw;
+    font-weight: 800;
+}
+/* 
+.win-gif, .tie-gif {
+    visibility: hidden;
+} */
