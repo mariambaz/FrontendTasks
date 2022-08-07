@@ -90,10 +90,12 @@ function cell1Click() {
         document.getElementById("cell-1-img").src = "./img/" + player1_color + "-x.png";
         game_grid[0][0] = 0;
         player1Played();
+        document.getElementById("cell-1").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-1-img").src = "./img/" + player2_color + "-o.png";
         game_grid[0][0] = 1;
         player2Played();
+        document.getElementById("cell-1").onclick = function() {};
     }
 }
 
@@ -103,11 +105,13 @@ function cell2Click() {
         game_grid[0][1] = 0;
         // console.log("NOT HERE")
         player1Played();
+        document.getElementById("cell-2").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         // console.log("HERE")
         document.getElementById("cell-2-img").src = "./img/" + player2_color + "-o.png";
         game_grid[0][1] = 1;
         player2Played();
+        document.getElementById("cell-2").onclick = function() {};
     }
 }
 
@@ -116,10 +120,12 @@ function cell3Click() {
         document.getElementById("cell-3-img").src = "./img/" + player1_color + "-x.png";
         game_grid[0][2] = 0;
         player1Played();
+        document.getElementById("cell-3").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-3-img").src = "./img/" + player2_color + "-o.png";
         game_grid[0][2] = 1;
         player2Played();
+        document.getElementById("cell-3").onclick = function() {};
     }
 }
 
@@ -128,10 +134,12 @@ function cell4Click() {
         document.getElementById("cell-4-img").src = "./img/" + player1_color + "-x.png";
         game_grid[1][0] = 0;
         player1Played();
+        document.getElementById("cell-4").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-4-img").src = "./img/" + player2_color + "-o.png";
         game_grid[1][0] = 1;
         player2Played();
+        document.getElementById("cell-4").onclick = function() {};
     }
 }
 
@@ -140,10 +148,12 @@ function cell5Click() {
         document.getElementById("cell-5-img").src = "./img/" + player1_color + "-x.png";
         game_grid[1][1] = 0;
         player1Played();
+        document.getElementById("cell-5").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-5-img").src = "./img/" + player2_color + "-o.png";
         game_grid[1][1] = 1;
         player2Played();
+        document.getElementById("cell-5").onclick = function() {};
     }
 }
 
@@ -152,10 +162,12 @@ function cell6Click() {
         document.getElementById("cell-6-img").src = "./img/" + player1_color + "-x.png";
         game_grid[1][2] = 0;
         player1Played();
+        document.getElementById("cell-6").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-6-img").src = "./img/" + player2_color + "-o.png";
         game_grid[1][2] = 1;
         player2Played();
+        document.getElementById("cell-6").onclick = function() {};
     }
 }
 
@@ -164,10 +176,12 @@ function cell7Click() {
         document.getElementById("cell-7-img").src = "./img/" + player1_color + "-x.png";
         game_grid[2][0] = 0;
         player1Played();
+        document.getElementById("cell-7").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-7-img").src = "./img/" + player2_color + "-o.png";
         game_grid[2][0] = 1;
         player2Played();
+        document.getElementById("cell-7").onclick = function() {};
     }
 }
 
@@ -176,10 +190,12 @@ function cell8Click() {
         document.getElementById("cell-8-img").src = "./img/" + player1_color + "-x.png";
         game_grid[2][1] = 0;
         player1Played();
+        document.getElementById("cell-8").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-8-img").src = "./img/" + player2_color + "-o.png";
         game_grid[2][1] = 1;
         player2Played();
+        document.getElementById("cell-8").onclick = function() {};
     }
 }
 
@@ -188,9 +204,11 @@ function cell9Click() {
         document.getElementById("cell-9-img").src = "./img/" + player1_color + "-x.png";
         game_grid[2][2] = 0;
         player1Played();
+        document.getElementById("cell-9").onclick = function() {};
     } else if (turn == 1) { // O (player 2)
         document.getElementById("cell-9-img").src = "./img/" + player2_color + "-o.png";
         game_grid[2][2] = 1;
         player2Played();
+        document.getElementById("cell-9").onclick = function() {};
     }
 }
